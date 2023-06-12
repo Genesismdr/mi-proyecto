@@ -1,0 +1,271 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo {
+    background-color: rgb(202, 100, 95);
+    width: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo a {
+    padding: 75px;
+}
+
+
+.vertical-menu {
+    width: 400px;
+    height: 470px;
+    background-color: rgb(202, 100, 95);
+    display: inline-block;
+}
+
+.vertical-menu a {
+    color: black;
+    display: block;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.vertical-menu a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.menu {
+    display: flex;
+}
+
+.titulo {
+    font-size: 100px;
+    font-family: 'Mr Dafoe', cursive;
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(54, 44, 44);
+}
+
+.titulo-dos {
+    font-size: 80px;
+    font-family: 'Mr Dafoe', cursive;
+    color: rgb(54, 44, 44);
+}
+
+.parrafo {
+    font-size: 25px;
+    font-family: 'Fredoka', sans-serif;
+    padding: 50px;
+    
+}
+
+.img-display{
+    display:block;
+    margin: auto;
+  }
+
+.horizontal-menu{
+    background-color: black;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.horizontal-menu p {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+.horizontal-menu ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.horizontal-menu ul a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.horizontal-menu ul li {
+    margin: 0.5rem;
+}
+
+.barra {
+    display: flex;
+    background-color: rgb(54, 44, 44);
+}
+
+.barra ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.barra ul a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.barra ul li {
+    padding: 30px;
+}
+
+.barra p {
+    font-size: 3rem;
+    color: white;
+    font-family: 'Sacramento', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letra {
+    border-radius: 50%;
+    padding: 10px;
+    width: 500px;
+}
+
+.barra a:hover {
+    background-color: rgb(36, 29, 29);
+    font-weight: 600;
+}
+
+.barra a.activate {
+    background-color: rgb(36, 29, 29);
+    color: white;
+    font-weight: 600;
+}
+
+.proyectos-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.proyectos div {
+    position: relative;
+    padding: 1rem;
+    font-size: 1em;
+    margin-top: 2rem;
+}
+
+.proyectos img {
+    position: absolute;
+    z-index: 100;
+    top: -45px;
+    right: 14%;
+}
+
+.img-pro {
+    width: 256px;
+    display: block;
+    clip-path: polygon(84% 0, 100% 50%, 84% 100%, 0% 100%, 7% 51%, 0% 0%);
+}
+
+.box {
+    height: 25rem;
+    max-width: 22rem;
+}
+
+.posicion {
+    top: 145px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Fredoka', sans-serif;
+
+}
+
+.galeria {
+    margin: 15px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 256px;
+    
+}
+
+.size {
+    width: 256px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.h2 {
+    padding: 15px;
+    text-align: center;
+}
+
+.form-contac {
+    background-color: white;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+}
+
+.contact {
+    padding: .8rem;
+    overflow: hidden;
+    color: gray;
+}
+
+.contact label, .contact input, .contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.contact label {
+    font-weight: 700;
+}
+
+.contact input:not([type= submit]), .contact textarea {
+    border: none;
+    border-bottom: 2px solid rgb(36, 29, 29);
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: gray;
+}
+
+.contact textarea {
+    min-height: 100px;
+}
+
+input[type=submit] {
+    padding: 10px;
+    border: none;
+    background-color: rgb(36, 29, 29);
+    color: white;
+    font-size: 18px;
+}
+
+footer {
+    background-color: black;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 40px;
+            color: white;
+}
+
